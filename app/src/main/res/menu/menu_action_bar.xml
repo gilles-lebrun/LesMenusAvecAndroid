@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.ensicaen.example.lebrung.myapplication.ActionBarActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_ab_boy"
+        android:title="@string/action_ab_boy"
+        android:icon="@mipmap/ic_boy"
+        app:showAsAction="always|withText"/>
+    <item android:id="@+id/action_ab_girl"
+        android:title="@string/action_ab_girl"
+        android:icon="@mipmap/ic_girl"
+        app:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/action_ab_criminal"
+        android:title="@string/action_ab_criminal"
+        android:icon="@mipmap/ic_criminal"
+        app:showAsAction="never"/>
+
+    />
+</menu>

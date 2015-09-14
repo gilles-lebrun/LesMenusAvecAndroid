@@ -8,13 +8,23 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".LesMenus"
+            android:name=".LesMenusActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContextualMenusActivity"
+            android:label="@string/title_activity_contextual_menus"
+            android:parentActivityName=".LesMenusActivity">
+        </activity>
+        <activity
+            android:name=".ActionBarActivity"
+            android:label="@string/title_activity_action_bar"
+            android:parentActivityName=".LesMenusActivity">
         </activity>
     </application>
 

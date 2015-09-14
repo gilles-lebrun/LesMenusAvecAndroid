@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">The Menus</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">The menus!</string>
+    <string name="contextual_menus">Contextual Menus</string>
     <string name="action_settings">Settings</string>
+    <string name="action_contextual">Contextual menus</string>
+    <string name="title_activity_contextual_menus">ContextualMenusActivity</string>
+    <string name="title_activity_action_bar">ActionBarActivity</string>
+    <string name="action_ab_boy">Boy</string>
+    <string name="action_ab_girl">Girl</string>
+    <string name="action_ab_criminal">Criminal</string>
 </resources>

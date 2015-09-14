@@ -2,5 +2,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".LesMenus">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+        android:orderInCategory="103" app:showAsAction="never" />
+    <item android:id="@+id/action_contextual" android:title="@string/action_contextual"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_action_bar" android:title="@string/title_activity_action_bar"
+        android:orderInCategory="102" app:showAsAction="never" />
 </menu>

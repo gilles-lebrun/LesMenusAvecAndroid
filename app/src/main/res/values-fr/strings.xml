@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Les Menus</string>
+
+    <string name="hello_world">Les menus!</string>
+    <string name="contextual_menus">Menus contextuels</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_contextual">Menus contextuel</string>
+    <string name="action_ab_boy">Garçon</string>
+    <string name="action_ab_girl">Fille</string>
+    <string name="action_ab_criminal">Criminel</string>
+</resources>

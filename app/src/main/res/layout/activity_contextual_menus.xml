@@ -6,7 +6,29 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="fr.ensicaen.example.lebrung.myapplication.ContextualMenusActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    <TextView android:text="@string/contextual_menus" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout_cm">
+
+        <ImageView
+            android:layout_width="600px"
+            android:layout_height="900px"
+            android:layout_gravity="center"
+            android:id="@+id/frame_image"
+            android:src="@drawable/starwars7"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/soon"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textStyle="bold"
+            android:textSize="50sp"/>
+    </FrameLayout>
 
 </RelativeLayout>
